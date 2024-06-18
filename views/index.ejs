@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Khan">
+  <title>Generador de Códigos QR</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <h1>Generador de Códigos QR</h1>
+  <p>Para generar un código QR, realiza una solicitud GET a <code>/generar-qr</code> con los siguientes parámetros:</p>
+  <ul>
+    <li><code>text</code> (requerido): El texto que deseas codificar en el QR.</li>
+    <li><code>size</code> (requerido): El tamaño del código QR. Debe ser un número positivo.</li>
+  </ul>
+  <p>Ejemplo de uso:</p>
+  <p><code>/generar-qr?text=Hola%20Mundo&size=10</code></p>
+</body>
+</html>
